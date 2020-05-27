@@ -4,9 +4,8 @@ require "pry"
 def snake_it_up(string)
   if string[0] == "s"
     10.times "s" + string
-    binding.pry
   else
     string
-    binding.pry
   end
+  binding.pry
 end
