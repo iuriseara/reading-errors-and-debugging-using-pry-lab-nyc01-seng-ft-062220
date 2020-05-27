@@ -10,4 +10,4 @@ def play_game(player2)
   binding.pry
 end
 
-start_game(Rocky, Bullwinkle)
+start_game("Rocky", "Bullwinkle")
